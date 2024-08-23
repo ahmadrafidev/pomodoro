@@ -15,7 +15,7 @@ export default function Component() {
   const [isWork, setIsWork] = useState(true)
 
   useEffect(() => {
-    let interval: NodeJS.Timeout | null = null
+    let interval: NodeJS.Timeout | undefined
 
     if (isActive) {
       interval = setInterval(() => {
