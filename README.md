@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pomodoro App
 
-## Getting Started
+A productivity app based on the Pomodoro Technique, which helps users manage their time effectively by dividing work into intervals, one of which is 25 minutes long but can be customized, separated with short breaks.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Pomodoro App](#pomodoro-app)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Options](#options)
+  - [Built With](#built-with)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Customizable Timer**: Set your preferred work and break intervals to match your personal productivity rhythm.
+- **Notifications**: Get desktop notifications or sound alerts when it's time to take a break or start the next work session.
+- **Session Tracking**: Keep track of your completed Pomodoro sessions to monitor productivity over time.
+- **User-Friendly Interface**: Simple and clean design, making it easy to focus on your tasks without distractions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Options
 
-## Learn More
+- **Work Interval**: Set the duration of your work sessions (default: 25 minutes).
+- **Short Break**: Set the length of short breaks between work sessions (default: 5 minutes).
+- **Long Break**: Set the length of long breaks after a set number of work sessions (default: 15 minutes).
+- **Sound Alerts**: Choose from different alert sounds or turn them off completely.
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **React** - A JavaScript library for building user interfaces.
+- **Next.js** - A React framework for server-side rendering and static site generation.
+- **Tailwind CSS** - A utility-first CSS framework for rapidly building custom designs.
+- **React Context API** - For managing application state and timer functionality.
